@@ -2,8 +2,7 @@
   "name": "newsapp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://upendarthota.github.io/NewsMonkey",
-  "dependencies": {
+   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -22,10 +21,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint .",
-    "lint:fix": "eslint --fix .",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-  },
+    "lint:fix": "eslint --fix ."
+   },
   "eslintConfig": {
     "extends": [
       "react-app",
