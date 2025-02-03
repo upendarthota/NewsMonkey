@@ -26,6 +26,8 @@ const App =()=> {
       />
         <BrowserRouter> 
         <Routes> 
+                  <Route path="/" element={<Home to="/home" />} />
+
           {/* <Route path="/" element={<Navbar/>}/>  */}
          {/* <Navbar/> */}
          {/* <Route path="/about" element={<News setProgress={ setProgress}  apiKey={ apiKey} pageSize={ pageSize} country="in" category="about"/>}/>  */}
